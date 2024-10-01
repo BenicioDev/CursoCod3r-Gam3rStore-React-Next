@@ -8,12 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+        colors: {
+            background: 'var(--background)',
+            foreground: 'var(--foreground)',
+            'violet-dark': {
+                DEFAULT: '#0E001D',
+                foreground: '#FFF',
+            },
+        },
     },
-  },
-  plugins: [],
-};
-export default config;
+},
+plugins: [],
+}
+export default config
